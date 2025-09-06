@@ -1,0 +1,19 @@
+# OS / エディタが勝手に作るファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# RPGツクールMZ: セーブデータは追跡しない
+save/
+
+# 配布用に作ったビルド成果物（もし出すならここも除外）
+dist/
+build/
+
+# Node関連（プラグイン開発で使う場合）
+node_modules/
+npm-debug.log*
+
+# IDE設定ファイル
+.vscode/
+.idea/
